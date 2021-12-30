@@ -37,6 +37,7 @@ a.navbar-brand:hover{
 }
 .nav-link{
   margin-left: 12px;
+  
 }
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
@@ -68,7 +69,10 @@ a.navbar-brand:hover{
 }
 @media screen and (max-width: 768px) {
     
- 
+  .nav-link{
+    margin-left: 0px;
+    
+  }
   .navbar-collapse{
    background: #fff;
    
@@ -76,7 +80,10 @@ a.navbar-brand:hover{
 }
 @media screen and (max-width: 995px) {
 
-   
+  .nav-link{
+    margin-left: 0px;
+    
+  }
    .navbar-collapse{
     background: 	#fff;
     
@@ -183,7 +190,7 @@ a.navbar-brand:hover{
 }
 #maha-sect{
   font-size: 25px;
-  color: #1f527a !important;
+  color: #1f527ae0 !important;
 }
 #getset{
   color: greenyellow;;
@@ -1233,7 +1240,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 41%);
     background-size: cover;
 }
 #magazine-cards3{
-  background: url(../img/mag3.png);
+  background: url(../img/mag3.jpg);
     background-size: cover;
 }
 
