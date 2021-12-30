@@ -118,6 +118,12 @@ a.navbar-brand:hover{
   0% { transform: translate3d(0, -100%, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
+#my-header{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .animated-title {
     color: #fff;
   font-family: Roboto, Arial, sans-serif;
