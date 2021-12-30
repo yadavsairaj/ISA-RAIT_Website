@@ -128,3 +128,7 @@ a {
 @media  screen and   (max-width: 580px){
  #footer-img{ width: 50% !important}
 }
+@media screen and (max-width: 580px){
+  .footer-20192 .cta{
+    margin-right: 30px; }
+}
